@@ -168,7 +168,7 @@ h2::after {
 
 .contact-icons a {
     font-size: 2.5rem; /* Larger icon size */
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for color, scale, and shadow */
 }
 
 /* Different colors for each icon */
@@ -181,12 +181,14 @@ h2::after {
 }
 
 .contact-icons a:nth-child(3) { /* GitHub */
-    color: #0077b5; /* GitHub blue */
+    color: #333; /* GitHub black */
 }
 
-/* Hover effect for icons */
+/* Hover effect for icons with animation */
 .contact-icons a:hover {
     color: #ff8c42; /* Change to orange on hover */
+    transform: scale(1.2); /* Slightly enlarge icon */
+    box-shadow: 0 4px 15px rgba(255, 140, 66, 0.4); /* Add a glowing shadow */
 }
 
 
