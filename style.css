@@ -124,7 +124,7 @@ h2::after {
 .skills-list li {
     display: inline-block;
     padding: 10px 20px;
-    background: #0077b5; /* Orange for background */
+    background: #0077b5; /* blue for background */
     color: #000; /* Dark color for text */
     margin: 10px;
     border-radius: 30px;
@@ -181,7 +181,7 @@ h2::after {
 }
 
 .contact-icons a:nth-child(3) { /* GitHub */
-    color: #0077b5; /* GitHub black */
+    color: #0077b5; /* GitHub blue */
 }
 
 /* Hover effect for icons */
