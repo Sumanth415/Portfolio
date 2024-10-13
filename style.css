@@ -1,0 +1,205 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #000; /* Changed to black */
+    color: #f4f7fc; /* Light color for readability */
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #f4c242, #ff8c42); /* Bright gradient to stand out against black */
+    color: #000; /* Darker color for contrast */
+    padding: 30px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Header Title */
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #fff; /* White for clear visibility */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Black for contrast */
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #fff; /* White hover effect */
+    color: #333; /* Dark text on hover */
+    border-radius: 5px;
+}
+
+/* Header Image Styles */
+.header-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3); /* Light shadow for effect */
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid #f4c242; /* Golden color for section borders */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #ff8c42; /* Bright orange for headings */
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: #fff; /* White underline effect */
+    display: block;
+    margin: 10px auto 0;
+}
+
+/* About Section */
+#about p {
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f4f7fc; /* Light color for readability */
+    line-height: 1.8;
+}
+
+/* Skills Section */
+.skills-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff8c42; /* Orange for background */
+    color: #000; /* Dark color for text */
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.skills-list li:hover {
+    background: #f4c242; /* Golden color on hover */
+    color: #333;
+}
+
+/* Projects Section */
+.project {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    color: #fff; /* White for headings */
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1rem;
+    color: #f4f7fc; /* Light color for readability */
+}
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between icons */
+}
+
+.contact-icons a {
+    font-size: 2.5rem; /* Larger icon size */
+    transition: color 0.3s ease;
+}
+
+/* Different colors for each icon */
+.contact-icons a:nth-child(1) { /* Email */
+    color: #f4c242; /* Gold */
+}
+
+.contact-icons a:nth-child(2) { /* LinkedIn */
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.contact-icons a:nth-child(3) { /* GitHub */
+    color: #0077b5; /* GitHub black */
+}
+
+/* Hover effect for icons */
+.contact-icons a:hover {
+    color: #ff8c42; /* Change to orange on hover */
+}
+
+
+/* Footer Styles */
+footer {
+    background: #ff8c42; /* Orange for footer background */
+    color: #000; /* Dark color for contrast */
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -4px 10px rgba(255, 255, 255, 0.1); /* Light shadow */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
